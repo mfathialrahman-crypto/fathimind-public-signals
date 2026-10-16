@@ -1,18 +1,19 @@
 # Live Status
 
-**Last public update:** 2026-10-13
+**Last public update:** 2026-10-16
 
 ```
-HelixMind     : 100/100  [Excellent]
-MFR-Cognition : STABLE   confidence band 0.85+
-AetherMind    : Operational
-SovereignEvolution : Active (v1.44)
-Generation    : 238+
-Public Core   : 2.1.1-pro
+HelixMind            : Operational (v1.2+) — health cycles active
+MFR-Cognition        : STABLE  v4.2.246  — Tests matrix green on main
+AetherMind           : Operational
+SovereignEvolution   : Active (daily evolution cycle)
+Public Core Pro      : 2.1.4-pro (MIT, zero dependency)
+Shared contracts     : RFC-0001 schemas in force
 ```
 
-All critical pipelines unit-tested.  
-Shared schemas (RFC-0001) in force.  
-Decision traces replayable inside the private engines.
+Verified signals (evidence-based):
+- Public Core: 15/15 unit tests passing locally and on clone.
+- MFR-Cognition: GitHub Actions Tests conclusion=success on latest main commits.
+- Decision traces remain private; only redacted status is published here.
 
-No secrets are published in this repository.
+No secrets, tokens, hostnames, or private state files are published in this repository.
