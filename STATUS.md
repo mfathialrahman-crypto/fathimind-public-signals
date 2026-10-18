@@ -1,6 +1,6 @@
 # Live Status
 
-**Last public update:** 2026-10-17
+**Last public update:** 2026-10-18
 
 ```
 HelixMind            : Operational (v1.2)
@@ -12,10 +12,11 @@ Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.11-pro"` on repository main (pyproject.toml + mfr_core_pro.py). Extracted conflict threshold constant; all tests pass.
-- Latest Core Pro CI: success.
+- Public Core: `VERSION = "2.1.11-pro"` on repository main (pyproject.toml + mfr_core_pro.py). All 16 unit tests pass locally and in CI matrix (Python 3.10-3.13). Conflict threshold constant extracted. CLI evidence-file and alternatives supported.
+- Latest Core Pro CI: success (matrix tests + demo + strict mypy).
 - MFR-Cognition: `version.py` reports 4.2.246; latest Tests and scheduled Cognitive Cycle workflows on main conclude success.
 - Decision traces remain private; only redacted status is published here.
+- AGENTS.md (Project Engineering Constitution, including long-horizon priority) is present and identical across public and private engines.
 
 Not claimed here:
 - Numeric HelixMind score (e.g. 100/100).
