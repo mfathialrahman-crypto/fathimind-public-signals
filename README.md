@@ -10,16 +10,16 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-10-18)
+## Current Snapshot (2026-10-21)
 
 | Signal | Value |
 |--------|-------|
 | **HelixMind** | Operational (v1.2) |
-| **MFR-Cognition Status** | STABLE (v4.2.246) |
+| **MFR-Cognition Status** | STABLE (v4.2.249) |
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.12-pro · tests + mypy clean · CI success |
+| **Public Core Pro** | v2.1.14-pro · 23 unit tests + mypy clean · CI matrix success |
 
 ---
 
