@@ -1,6 +1,6 @@
 # Live Status
 
-**Last public update:** 2026-10-19
+**Last public update:** 2026-10-21
 
 ```
 HelixMind            : Operational (v1.2)
@@ -12,7 +12,7 @@ Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.14-pro"` on repository main (product constant in mfr_core_pro.py; packaging 2.1.14). All 20 unit tests pass locally and in CI matrix (Python 3.10-3.13). Full implementation restored after truncation; `to_fathimind_decision()` mapper, conflict threshold, CLI `--decision` and evidence-file supported.
+- Public Core: `VERSION = "2.1.14-pro"` on repository main (product constant in mfr_core_pro.py; packaging 2.1.14). All 23 unit tests pass locally and in CI matrix (Python 3.10-3.13). Full implementation restored after truncation; `to_fathimind_decision()` mapper, conflict threshold, CLI `--decision` and evidence-file supported.
 - Latest Core Pro CI: success (matrix tests + demo + strict mypy) — see Actions run for the 2.1.14-pro restore.
 - MFR-Cognition: `version.py` reports 4.2.249; latest Tests and scheduled Cognitive Cycle workflows on main conclude success.
 - Decision traces remain private; only redacted status is published here.
