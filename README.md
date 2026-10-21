@@ -15,7 +15,7 @@ This repository exists so the outside world can see that the system is alive, he
 | Signal | Value |
 |--------|-------|
 | **HelixMind** | Operational (v1.2) |
-| **MFR-Cognition Status** | STABLE (v4.2.249) |
+| **MFR-Cognition Status** | STABLE (v4.2.252) |
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
