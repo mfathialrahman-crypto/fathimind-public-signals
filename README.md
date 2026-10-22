@@ -14,12 +14,14 @@ This repository exists so the outside world can see that the system is alive, he
 
 | Signal | Value |
 |--------|-------|
-| **HelixMind** | Operational (v1.2) |
-| **MFR-Cognition Status** | STABLE (v4.2.253) — recent CI under verification |
-| **Typical Confidence** | ≥ 0.85 |
+| **HelixMind** | v1.2 · scheduled cycle observed failing (instant, under investigation) |
+| **MFR-Cognition Status** | v4.2.253 · Tests workflow and cognitive cycle observed failing (instant, under investigation) |
+| **Typical Confidence** | ≥ 0.85 (historical) |
 | **Generation** | 238+ |
-| **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.17-pro · CI matrix success · empty-question validation |
+| **SovereignEvolution** | v1.44 · daily evolution observed failing (instant, under investigation) · core targets completed |
+| **Public Core Pro** | v2.1.17-pro · CI matrix success · empty-question validation · 31 tests pass |
+
+Observed private scheduled and push workflows completing in ~1-4 seconds with failure conclusion. Public Core Pro remains green. Root cause under investigation (possible Actions minutes, runner allocation, or workflow start failure). No host details exposed.
 
 ---
 
