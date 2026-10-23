@@ -4,7 +4,7 @@
 
 ```
 HelixMind            : Operational (v1.2)
-MFR-Cognition        : STABLE  v4.2.253  — workflow pins restored; CI still blocked by account billing
+MFR-Cognition        : STABLE  v4.2.254  — workflow pins restored; CI still blocked by account billing
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
 Public Core Pro      : 2.1.19-pro (MIT, zero dependency)
