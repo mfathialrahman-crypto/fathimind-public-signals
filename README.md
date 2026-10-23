@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.18-pro · CI matrix success · empty-question validation · docs aligned to version.py |
+| **Public Core Pro** | v2.1.19-pro · CI matrix success · unified independence factor 0.6 · 32 tests · docs aligned |
 
 ---
 
