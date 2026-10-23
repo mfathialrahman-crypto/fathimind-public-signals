@@ -10,7 +10,7 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-10-23)
+## Current Snapshot (2026-10-24)
 
 | Signal | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.22-pro · unused imports cleaned · CI success · 33 tests · docs aligned |
+| **Public Core Pro** | v2.1.23-pro · regression test for all non-independent evidence · CI success · 34 tests · docs aligned |
 
 ---
 
