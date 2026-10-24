@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.24-pro · --validate flag · CI success · 35 tests · docs aligned |
+| **Public Core Pro** | v2.1.26-pro · --version + --validate flags · CI success · 38 tests · docs aligned |
 
 ---
 
