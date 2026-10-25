@@ -1,6 +1,6 @@
 # Live Status
 
-**Last public update:** 2026-10-24
+**Last public update:** 2026-10-25
 
 ```
 HelixMind            : Operational (v1.2)
@@ -13,9 +13,9 @@ Shared contracts     : RFC-0001 schemas (public handbook)
 
 Verified signals (evidence-based):
 - Public Core: `VERSION = "2.1.29-pro"` on repository main (product constant in version.py; packaging 2.1.29). Expanded test coverage for suggestion generation and CLI edge cases (34 tests). Unit tests pass locally. Insufficient-evidence reports include fingerprint and question; pure-Python validate_report() contract checker present; all analysis outputs satisfy analysis.schema.json. Empty-question validation, unified independence factor, and alternatives in suggestions present from prior releases. Public docs aligned to SSOT.
-- Latest Core Pro CI: success on default branch (workflow run 40115658087, conclusion success).
+- Latest Core Pro CI: success on default branch (workflow run 40115658087, conclusion success). AGENTS.md synced to 2026-10-25 footer.
 - Private engines: SHA-pinned workflow PRs merged. Local suites verified per prior PRs. GitHub Actions jobs on private repos remain blocked by account billing / spending limit ("job was not started because recent account payments have failed or your spending limit needs to be increased"). Jobs complete in 1–2 seconds with failure. Local verification does not replace CI.
-- AGENTS.md (Project Engineering Constitution including long-horizon priority and 2026-10-24 review footer) is present and identical (SHA 5240a6e7525329e85ee146acd551aaeabbaf2cfa) across FathiMind, Core Pro, public-signals, and all private engines.
+- AGENTS.md (Project Engineering Constitution including long-horizon priority and 2026-10-25 review footer) is present and identical (SHA eb3d4f33c1f48696ba2fa22e0bca5af52678ff9f) across FathiMind, Core Pro, public-signals, and all private engines.
 - Decision traces remain private; only redacted status is published here.
 
 Not claimed here:
