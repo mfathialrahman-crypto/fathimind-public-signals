@@ -10,7 +10,7 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-10-25)
+## Current Snapshot (2026-10-26)
 
 | Signal | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.34-pro · O(n) opposition opt · CLI robustness · version CI · 38 tests · docs aligned |
+| **Public Core Pro** | v2.1.36-pro · PRIOR_STRENGTH refactor (clarity) · no behavior change · 38 tests · docs aligned |
 
 ---
 
@@ -48,6 +48,3 @@ FathiMind produces structured decisions with evidence, confidence, and audit tra
 - [Profile](https://github.com/mfathialrahman-crypto)
 
 ---
-
-© 2026 Mohamed Fathi Alrahman  
-Public signals only. Core engines remain proprietary.
