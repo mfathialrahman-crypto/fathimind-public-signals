@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.36-pro · PRIOR_STRENGTH refactor (clarity) · no behavior change · 38 tests · docs aligned |
+| **Public Core Pro** | v2.1.38-pro · CI_Z_SCORE named constant extracted · no behavior change · 38 tests · docs aligned |
 
 ---
 
