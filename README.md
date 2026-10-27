@@ -1,4 +1,5 @@
 # FathiMind Public Signals
+[![CI](https://github.com/mfathialrahman-crypto/fathimind-public-signals/workflows/Public%20Signals%20Check/badge.svg)](https://github.com/mfathialrahman-crypto/fathimind-public-signals/actions/workflows/ci.yml)
 
 [![Status](https://img.shields.io/badge/Signals-Live-brightgreen)](https://github.com/mfathialrahman-crypto/fathimind-public-signals)
 [![FathiMind](https://img.shields.io/badge/FathiMind-Ecosystem-blueviolet)](https://github.com/mfathialrahman-crypto/FathiMind)
