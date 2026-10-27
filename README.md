@@ -10,16 +10,16 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-10-26)
+## Current Snapshot (2026-10-27)
 
 | Signal | Value |
 |--------|-------|
 | **HelixMind** | Operational (v1.2) |
-| **MFR-Cognition Status** | STABLE (v4.2.254) — recent CI under verification |
+| **MFR-Cognition Status** | STABLE (v4.2.254) — workflow pins restored; CI blocked by billing |
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.36-pro · PRIOR_STRENGTH refactor (clarity) · no behavior change · 38 tests · docs aligned |
+| **Public Core Pro** | v2.1.41-pro · CLI regression fixed (parser + demo restored) · named constants · 38 tests · CI green · docs aligned |
 
 ---
 
