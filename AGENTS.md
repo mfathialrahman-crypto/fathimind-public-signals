@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: public signals surface aligned with Core Pro v2.1.38-pro and FathiMind HQ). AGENTS.md constitution present and saved. No critical issues. Continuous improvement cycle active.*
+*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: public signals surface aligned with Core Pro v2.1.41-pro and FathiMind HQ). AGENTS.md constitution present and saved. No critical issues. Continuous improvement cycle active.*
