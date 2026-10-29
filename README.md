@@ -11,7 +11,7 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-10-27)
+## Current Snapshot (2026-10-29)
 
 | Signal | Value |
 |--------|-------|
@@ -20,7 +20,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **Typical Confidence** | ≥ 0.85 |
 | **Generation** | 238+ |
 | **SovereignEvolution** | Active · v1.44 · core targets completed |
-| **Public Core Pro** | v2.1.42-pro · evidence-file object format supported · 41 tests · CI green · docs aligned |
+| **Public Core Pro** | v2.1.44-pro · CI green (3.10–3.13) · tests pass · mypy clean · version.py SSOT |
 
 ---
 
