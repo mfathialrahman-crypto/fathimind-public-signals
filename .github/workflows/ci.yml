@@ -14,7 +14,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout public-signals
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
@@ -22,16 +22,58 @@ jobs:
       - name: Check required files
         run: |
           echo "Validating public signals surface..."
-          test -f README.md || exit 1
-          test -f STATUS.md || exit 1
-          test -f AGENTS.md || exit 1
-          test -f LICENSE || exit 1
+          test -f README.md || { echo "ERROR: README.md missing"; exit 1; }
+          test -f STATUS.md || { echo "ERROR: STATUS.md missing"; exit 1; }
+          test -f AGENTS.md || { echo "ERROR: AGENTS.md missing"; exit 1; }
+          test -f LICENSE || { echo "ERROR: LICENSE missing"; exit 1; }
           echo "All required files present."
 
-      - name: Check STATUS has current version reference
+      - name: Checkout Core Pro (read-only, for live VERSION)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro
+          path: _core_pro
+          persist-credentials: false
+
+      - name: Extract live Core Pro VERSION and assert public docs match
         run: |
-          if ! grep -q "2.1.42-pro" STATUS.md; then
-            echo "ERROR: STATUS.md missing current Core Pro version"
+          set -euo pipefail
+          VERSION_FILE="_core_pro/version.py"
+          if [ ! -f "$VERSION_FILE" ]; then
+            echo "ERROR: Could not read version.py from MFR-Adaptive-Intelligence-Core-Pro"
             exit 1
           fi
-          echo "STATUS version reference OK."
+          # Extract VERSION = "..." (supports single or double quotes)
+          LIVE_VERSION=$(python3 -c "
+          import re, sys
+          text = open('$VERSION_FILE').read()
+          m = re.search(r'VERSION\s*=\s*[\"\']([^\"\']+)[\"\']', text)
+          if not m:
+              print('ERROR: VERSION assignment not found in version.py', file=sys.stderr)
+              sys.exit(1)
+          print(m.group(1))
+          ")
+          if [ -z "$LIVE_VERSION" ]; then
+            echo "ERROR: Empty VERSION extracted from version.py"
+            exit 1
+          fi
+          echo "Live Core Pro VERSION from version.py: $LIVE_VERSION"
+
+          # Public surface must reference the live version (not merely agree on a stale number)
+          for f in README.md STATUS.md; do
+            if ! grep -qF "$LIVE_VERSION" "$f"; then
+              echo "ERROR: $f does not contain live Core Pro version '$LIVE_VERSION'"
+              echo "--- $f (relevant lines) ---"
+              grep -n -i 'core pro\|2\.1\.' "$f" || true
+              exit 1
+            fi
+            echo "OK: $f contains $LIVE_VERSION"
+          done
+
+          # Guard against accidental re-introduction of the previous stale version as the only claim
+          if grep -qF '2.1.42-pro' README.md STATUS.md 2>/dev/null; then
+            # Allow historical mentions only if live version is also present (already checked)
+            echo "NOTE: 2.1.42-pro string still appears somewhere; live version is present so continuing."
+          fi
+
+          echo "Version consistency check passed against live source of truth."
