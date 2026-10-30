@@ -30,7 +30,7 @@ jobs:
 
       - name: Check STATUS has current version reference
         run: |
-          if ! grep -q "2.1.42-pro" STATUS.md; then
+          if ! grep -q "2.1.45-pro" STATUS.md; then
             echo "ERROR: STATUS.md missing current Core Pro version"
             exit 1
           fi
