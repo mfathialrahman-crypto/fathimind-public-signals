@@ -1,13 +1,13 @@
 # Live Status
 
-**Last public update:** 2026-10-30
+**Last public update:** 2026-10-31
 
 ```
 HelixMind            : Operational (v1.2)
 MFR-Cognition        : STABLE  v4.2.256  — expanded host metrics, hardened redaction
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
-Public Core Pro      : 2.1.45-pro (MIT, zero dependency)
+Public Core Pro      : 2.1.45-pro (MIT, zero dependency) — setup-python v7.1.0 aligned
 Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
