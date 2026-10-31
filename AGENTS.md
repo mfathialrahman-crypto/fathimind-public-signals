@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-10-31T10:20Z (cycle: public signals refresh; Core Pro and Cognition actions updated; continuous improvement active).
+*Last reviewed and confirmed in repository: 2026-10-31T15:17Z (cycle: README snapshot date aligned to STATUS; continuous improvement active. No critical issues detected).
