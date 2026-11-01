@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **MFR-Cognition Status** | STABLE (v4.2.256) — expanded host metrics, hardened redaction |
 | **Typical Confidence** | ≥ 0.85 |
 | **SovereignEvolution** | Active · v1.44 · daily actions SHA-pinned |
-| **Public Core Pro** | v2.1.45-pro · zero-dependency MIT · 19 unit tests pass · 91% coverage · decision-contract fields present · CI green |
+| **Public Core Pro** | v2.1.45-pro · zero-dependency MIT · 20 unit tests pass · 91% coverage · decision-contract fields present · CI green |
 
 ---
 
