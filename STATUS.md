@@ -1,6 +1,6 @@
 # Live Status
 
-**Last public update:** 2026-11-04
+**Last public update:** 2026-11-06
 
 ```
 HelixMind            : Operational (v1.2)
@@ -12,8 +12,8 @@ Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.47-pro"` on repository main (product constant in version.py). Local verification 2026-11-04: 28 unit tests passed on Python 3.10 with mypy --strict clean; decision-contract fields (`decision_confidence`, `stability`) and construction-time `prior_belief` validation present. Zero-dependency MIT package. No change to analysis logic or fingerprints.
-- AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals (refreshed 2026-11-04T23:14+04).
+- Public Core: `VERSION = "2.1.47-pro"` on repository main (product constant in version.py). Local verification 2026-11-06: 28 unit tests passed (0.04s) with mypy --strict clean; decision-contract fields (`decision_confidence`, `stability`) and construction-time `prior_belief` validation present. Zero-dependency MIT package. No change to analysis logic or fingerprints.
+- AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals (refreshed 2026-11-05T22:16Z / 2026-11-06T02:16+04).
 - Private engines: versions aligned per FathiMind handbook (Helix v1.2, Cognition v4.2.256, Aether v1.3, Evolution v1.44). Local suites verified in prior cycles. GitHub Actions on private repos may be affected by account billing limits; local verification does not replace CI.
 - Decision traces remain private; only redacted status is published here.
 
