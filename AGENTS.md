@@ -346,3 +346,6 @@ Raise the project each cycle without sacrificing what already works, and without
 
 ---
 *Last reviewed and confirmed in repository: 2026-11-09T19:21Z (cycle: Core-Pro local re-verification; 38/38 tests, 94% coverage, mypy --strict clean. Version 2.1.55-pro. Constitution aligned and saved on GitHub. No P0/P1. Continuous improvement active.)*
+
+---
+*Last reviewed and confirmed in repository: 2026-11-10T18:30Z (cycle: public-signals version sync to Core-Pro 2.1.59-pro; local pytest 39/39 passed on Core Pro. CI version gate updated. PR #6 opened. No P0/P1. Continuous improvement active.)*
