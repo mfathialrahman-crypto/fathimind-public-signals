@@ -1,18 +1,18 @@
 # Live Status
 
-**Last public update:** 2026-11-10
+**Last public update:** 2026-11-11
 
 ```
 HelixMind            : Operational (v1.2)
 MFR-Cognition        : STABLE  v4.2.256  — expanded host metrics, hardened redaction
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
-Public Core Pro      : 2.1.56-pro (MIT, zero dependency) — competing_claims excludes top claim; CLI/JSON path; pure-Python validator
+Public Core Pro      : 2.1.59-pro (MIT, zero dependency) — type-safe ClaimStat TypedDict, mypy --strict clean, 39 tests
 Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.56-pro"` on repository main (product constant in version.py). CHANGELOG documents competing_claims semantic fix and CLI/JSON helper. Independent notes in AGENTS.md and prior local verification cycles (pytest suites, mypy --strict clean). Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. Version consistency gate between version.py and pyproject.toml reliable. README version badge and text aligned.
+- Public Core: `VERSION = "2.1.59-pro"` on repository main (product constant in version.py). CHANGELOG documents type-safety (ClaimStat TypedDict) and prior competing_claims fix. Independent local verification: 39/39 tests passed, mypy --strict clean. Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. Version consistency gate between version.py and pyproject.toml reliable. README version badge and text aligned.
 - AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals.
 - Private engines: versions aligned per FathiMind handbook (Helix v1.2, Cognition v4.2.256, Aether v1.3, Evolution v1.44). Local suites verified in prior cycles. GitHub Actions on private repos may be affected by account billing limits; local verification does not replace CI.
 - Decision traces remain private; only redacted status is published here.
