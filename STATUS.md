@@ -1,18 +1,18 @@
 # Live Status
 
-**Last public update:** 2026-11-15
+**Last public update:** 2026-11-16
 
 ```
 HelixMind            : Operational (v1.2)
 MFR-Cognition        : STABLE  v4.2.256  — expanded host metrics, hardened redaction
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
-Public Core Pro      : 2.1.63-pro (MIT, zero dependency) — CLI --json hardened, 52 tests, mypy --strict clean, low-mean regression tests present
+Public Core Pro      : 2.1.64-pro (MIT, zero dependency) — CLI --help added, 53 tests, mypy --strict clean
 Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.63-pro"` on repository main (product constant in version.py). CHANGELOG documents CLI --json robustness (FileNotFoundError, PermissionError, invalid JSON now exit cleanly with message) and low-mean regression tests. Independent local verification: 52/52 tests passed, mypy --strict clean. Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. Version consistency gate between version.py and pyproject.toml reliable. README version badge and text aligned.
+- Public Core: `VERSION = "2.1.64-pro"` on repository main (product constant in version.py). CHANGELOG documents CLI --help/-h flag. Independent verification via CI: latest run success. Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. Version consistency gate between version.py and pyproject.toml reliable. README version badge and text aligned.
 - AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals.
 - Private engines: versions aligned per FathiMind handbook (Helix v1.2, Cognition v4.2.256, Aether v1.3, Evolution v1.44). Local suites verified in prior cycles. GitHub Actions on private repos may be affected by account billing limits; local verification does not replace CI.
 - Decision traces remain private; only redacted status is published here.
