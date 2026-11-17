@@ -11,7 +11,7 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-11-16)
+## Current Snapshot (2026-11-17)
 
 | Signal | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **MFR-Cognition Status** | STABLE (v4.2.256) — expanded host metrics, hardened redaction |
 | **Typical Confidence** | ≥ 0.85 |
 | **SovereignEvolution** | Active · v1.44 · daily actions SHA-pinned |
-| **Public Core Pro** | v2.1.64-pro · zero-dependency MIT · 53 unit tests · CLI --help added · decision-contract fields present · fingerprint includes alternatives · pure-Python report validator · version alignment CI · CI green |
+| **Public Core Pro** | v2.1.66+pro · zero-dependency MIT · 53 unit tests · CLI --help added · decision-contract fields present · fingerprint includes alternatives · pure-Python report validator · version alignment CI · CI green |
 
 ---
 
@@ -48,4 +48,3 @@ FathiMind produces structured decisions with evidence, confidence, and audit tra
 - [Profile](https://github.com/mfathialrahman-crypto)
 
 ---
-
