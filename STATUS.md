@@ -1,18 +1,18 @@
 # Live Status
 
-**Last public update:** 2026-11-19
+**Last public update:** 2026-11-20
 
 ```
 HelixMind            : Operational (v1.2)
 MFR-Cognition        : STABLE  v4.2.256  — expanded host metrics, hardened redaction
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
-Public Core Pro      : 2.1.66+pro (MIT, zero dependency) — PEP 440 compliant, 29 tests, mypy --strict clean
+Public Core Pro      : 2.1.67+pro (MIT, zero dependency) — 33 tests, 93% coverage, mypy --strict clean
 Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.66+pro"` on repository main (product constant in version.py). CHANGELOG documents packaging fix for PEP 440. Independent local verification 2026-11-19: 29/29 pytest passed, coverage 93% (≥90%), mypy --strict clean on mfr_core_pro.py and version.py. CI type-check job now covers both files. Version consistency gate between version.py and pyproject.toml. Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. README version badge and text aligned. AGENTS.md review footer refreshed.
+- Public Core: `VERSION = "2.1.67+pro"` on repository main (product constant in version.py). Independent local verification 2026-11-20: 33/33 pytest passed, coverage 93% (≥90%), mypy --strict clean on mfr_core_pro.py and version.py. CI type-check job covers both files. Version consistency gate between version.py and pyproject.toml. Decision-contract fields present. Alternatives included in content-addressable fingerprint. Pure-Python report validator present. Zero-dependency MIT package. README version badge and text aligned. AGENTS.md review footer current.
 - AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals.
 - Private engines: versions aligned per FathiMind handbook (Helix v1.2, Cognition v4.2.256, Aether v1.3, Evolution v1.44). Local suites verified in prior cycles. GitHub Actions on private repos may be affected by account billing limits; local verification does not replace CI.
 - Decision traces remain private; only redacted status is published here.
