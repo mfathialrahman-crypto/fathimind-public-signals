@@ -1,18 +1,18 @@
 # Live Status
 
-**Last public update:** 2026-11-25
+**Last public update:** 2026-11-27
 
 ```
 HelixMind            : Operational (v1.2)
 MFR-Cognition        : STABLE  v4.2.257  — expanded host metrics, hardened redaction
 AetherMind           : Operational — cycle actions SHA-pinned
 SovereignEvolution   : Active (v1.44) — daily actions SHA-pinned
-Public Core Pro      : 2.1.77+pro (MIT, zero dependency) — CLI stdin support + argparse, pure-Beta CI, status fix for weak top-claim, CI green, mypy --strict clean
+Public Core Pro      : 2.1.78+pro (MIT, zero dependency) — CLI stdin support + argparse, pure-Beta CI, status fix for weak top-claim, CI green, mypy --strict clean
 Shared contracts     : RFC-0001 schemas (public handbook)
 ```
 
 Verified signals (evidence-based):
-- Public Core: `VERSION = "2.1.77+pro"` on repository main (product constant in version.py). Version sources aligned (version.py + pyproject.toml + README badge). Decision-contract fields present. Pure-Python report validator present. Zero-dependency MIT package. README version badge and text aligned. AGENTS.md review footer refreshed. Pure Beta posterior CI calculation applied (no double-counted sqrt(n)). Status decision corrected so weak top claim (mean < 0.55, evidence_count < 2) yields INSUFFICIENT_EVIDENCE. CLI: `--json` accepts `-` or omitted for stdin; switched to argparse. Fingerprint type-guard regression present. Coverage gate ≥90% enforced in CI.
+- Public Core: `VERSION = "2.1.78+pro"` on repository main (product constant in version.py). Version sources aligned (version.py + pyproject.toml + README badge). Decision-contract fields present. Pure-Python report validator present. Zero-dependency MIT package. README version badge and text aligned. AGENTS.md review footer refreshed. Pure Beta posterior CI calculation applied (no double-counted sqrt(n)). Status decision corrected so weak top claim (mean < 0.55, evidence_count < 2) yields INSUFFICIENT_EVIDENCE. CLI: `--json` accepts `-` or omitted for stdin; switched to argparse. Fingerprint type-guard regression present. Coverage gate ≥90% enforced in CI.
 - AGENTS.md present with long-horizon section and current review footer across HQ, Core-Pro, and public-signals.
 - Private engines: versions aligned per FathiMind handbook (Helix v1.2, Cognition v4.2.257, Aether v1.3, Evolution v1.44). Local suites verified in prior cycles. GitHub Actions on private repos may be affected by account billing limits; local verification does not replace CI.
 - Decision traces remain private; only redacted status is published here.
