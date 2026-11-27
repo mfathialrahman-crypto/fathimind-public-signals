@@ -11,7 +11,7 @@ This repository exists so the outside world can see that the system is alive, he
 
 ---
 
-## Current Snapshot (2026-11-24)
+## Current Snapshot (2026-11-27)
 
 | Signal | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ This repository exists so the outside world can see that the system is alive, he
 | **MFR-Cognition Status** | STABLE (v4.2.257) — expanded host metrics, hardened redaction |
 | **Typical Confidence** | ≥ 0.85 |
 | **SovereignEvolution** | Active · v1.44 · daily actions SHA-pinned |
-| **Public Core Pro** | v2.1.77+pro · zero-dependency MIT · CI green · 55/55 pytest · coverage 99% · mypy --strict clean · decision-contract fields present · pure-Python report validator · version alignment · AGENTS.md present · CLI stdin support · weak-top-claim status fix |
+| **Public Core Pro** | v2.1.79+pro · zero-dependency MIT · CI green · 30/30 pytest · coverage 96% · mypy --strict clean · decision-contract fields present · pure-Python report validator · version alignment · AGENTS.md present · CLI stdin support · weak-top-claim status fix |
 
 ---
 
